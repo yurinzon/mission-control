@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🔮 AI Mission Control & Kassi Tarot Hub
 
-## Getting Started
+An Awwwards-tier, premium mystical dashboard and full-stack software system built with **Next.js 16.2 (Turbopack)**, **React 19**, **Tailwind CSS v4**, and **TypeScript**. 
 
-First, run the development server:
+It serves as the local and remote control panel for your AI Agent workflows, bidirectionally synchronized with your Obsidian Second Brain (**The Volt**), integrated with an immersive client-facing Tarot portal, and loaded with an automated Instagram Content Studio.
 
+---
+
+## 📸 Core Modules
+
+### 1. Kassi Tarot Portal (`/kassi-tarot`)
+A luxury, high-end, immersive web experience designed with **celestial aesthetics** (Obsidian Purple, Gold Leaf Accents, and CSS Film Grain texture). 
+* **3D Card Shuffling:** Realistic 1.8s kinetic shuffle with full 3D card flips.
+* **Astrological Interactive Dials:** Concentric celestial compass elements rotating slowly in response to client interactions.
+* **Interactive Crystal Ball:** Built in pure CSS/Tailwind, simulating glowing plasma flows, particle sparkles, and magical bursts on tap to consult the Arcana.
+* **Bidirectional Obsidian Booking:** Submitting a reading request dynamically writes a structured task into your local Obsidian Vault at `/The Volt/Tarot`.
+
+### 2. Instagram Carousel Studio (`/tarot-carousels.html`)
+An automated design playground tailored to **Cassie's Instagram channel**. It maps rich Hebrew content into Awwwards-tier 1080x1080 slides.
+* **Imagen 4.0 Art Integration:** Fully integrated with Google's state-of-the-art Imagen 4.0 model to generate breathtaking mystical cover art and asset slides.
+* **One-Click Post Caption Copy:** Includes fully drafted, high-engagement Hebrew copywriting templates for each slide deck, ready to copy and paste to Instagram.
+* **Four Curated Decks:**
+  1. *12 Stages of the Hero's Journey (מסע הגיבור)*
+  2. *The Four Elements & Suits (ארבעת היסודות)*
+  3. *Minor Arcana Formulas (נוסחת הארקנה הזוטרה)*
+  4. *The Cosmic Spread (פריסת קשר קוסמי עם היקום)*
+
+---
+
+## 🛠️ Tech Stack & Architecture
+
+* **Framework:** Next.js 16.2 (App Router + Turbopack)
+* **Frontend:** React 19, Tailwind CSS v4, TypeScript
+* **Animations:** Pure CSS Keyframes, hardware-accelerated transitions, custom bezier springs (`cubic-bezier(0.16, 1, 0.3, 1)`)
+* **Assets:** Rider-Waite High-Res Tarot Deck symlinked from `/Users/yurismacbook/the volt/The Volt/Tarot/טארות - ריידר וויט` into `public/tarot-deck`
+* **Local Databases:** SQLite (`.od/app.sqlite`), Obsidian Markdown files (`The Volt`), and local `.env` credential pool
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+Make sure Node.js ≥ 18 is installed.
+
+### Installation
+Clone the repository and install the dependencies:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/yurinzon/mission-control.git
+cd mission-control
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Running the Development Server
+Launch the development server:
+```bash
+npm run dev
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Open [http://localhost:3000/kassi-tarot](http://localhost:3000/kassi-tarot) in your browser to experience the magic.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🪐 Deployment on Vercel
+This repository is production-ready for instant, free deployments on the **Vercel Platform**:
+1. Go to [vercel.com](https://vercel.com) and import the `yurinzon/mission-control` repository.
+2. Configure your environment variables (e.g., `GOOGLE_API_KEY`, `DISCORD_TOKEN`).
+3. Click **Deploy**. Vercel will automatically build, optimize, and serve your Kassi Tarot website globally with automatic SSL.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🛡️ License & Credits
+Apache-2.0. Built with elite, double-bezel spatial design under the stewardship of **Hermes Agent**.
