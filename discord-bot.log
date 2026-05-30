@@ -1,0 +1,152 @@
+[2026-05-27T12:57:20.479Z] ============= DISCORD BOT ACTIVE =============
+[2026-05-27T12:57:20.480Z] Logged in as: hermes#0052
+[2026-05-27T12:57:20.480Z] Guilds connected: 1
+[2026-05-27T12:57:20.481Z]  - Guild: "groob's server" (ID: 1475512686740770867)
+[2026-05-27T12:57:20.481Z] ==============================================
+[2026-05-27T12:59:43.163Z] [Message] From groobjoob in #bot-chat: "<@1509133615815200838> עובד?"
+[2026-05-27T12:59:43.164Z] [Command] Parsing matching command: "עובד?"
+[2026-05-27T13:00:36.106Z] [Message] From groobjoob in #general: "<@1509133615815200838> hii"
+[2026-05-27T13:00:36.107Z] [Command] Parsing matching command: "hii"
+[2026-05-27T13:02:45.288Z] [Message] From Spidey Bot in #bot-chat: "<@1509133615815200838> ```json
+{
+  "action": "logActivity",
+  "agent": "Max (Linux Kernel)",
+  "message": "Webhook URL updated to final production endpoint. Syncing logs... 📡",
+  "type": "agent",
+  "tokensUsed": 800
+}
+```"
+[2026-05-27T13:02:45.290Z] [Command] Parsing matching command: "```json
+{
+  "action": "logActivity",
+  "agent": "Max (Linux Kernel)",
+  "message": "Webhook URL updated to final production endpoint. Syncing logs... 📡",
+  "type": "agent",
+  "tokensUsed": 800
+}
+```"
+[2026-05-27T13:03:20.100Z] [Message] From groobjoob in #general: "<@1509133615815200838> hi"
+[2026-05-27T13:03:20.100Z] [Command] Parsing matching command: "hi"
+[2026-05-27T13:24:30.668Z] [Message] From groobjoob in #bot-chat: "<@1475517296012169310> <@1509133615815200838> ```json
+{
+  "action": "logActivity",
+  "agent": "Max (Linux Kernel)",
+  "message": "Webhook URL updated to final production endpoint. Syncing logs... 📡",
+  "type": "agent",
+  "tokensUsed": 800
+}
+```"
+[2026-05-27T13:24:30.676Z] [Command] Parsing matching command: "<@1475517296012169310>  ```json
+{
+  "action": "logActivity",
+  "agent": "Max (Linux Kernel)",
+  "message": "Webhook URL updated to final production endpoint. Syncing logs... 📡",
+  "type": "agent",
+  "tokensUsed": 800
+}
+```"
+[2026-05-27T13:25:36.447Z] [Message] From openclaw#6003 in #bot-chat: ""
+[2026-05-27T13:47:01.168Z] ============= DISCORD BOT ACTIVE =============
+[2026-05-27T13:47:01.170Z] Logged in as: hermes#0052
+[2026-05-27T13:47:01.170Z] Guilds connected: 1
+[2026-05-27T13:47:01.170Z]  - Guild: "groob's server" (ID: 1475512686740770867)
+[2026-05-27T13:47:01.170Z] ==============================================
+[2026-05-27T13:52:13.071Z] [Message] From groobjoob in #bot-chat: "<@1509133615815200838> היי"
+[2026-05-27T13:52:13.073Z] [Command] Parsing matching command: "היי"
+[2026-05-27T13:52:13.073Z] [Fallback] Unmatched message received, sending helper reply.
+[2026-05-27T14:01:18.115Z] [Message] From Captain Hook in #general: ""
+[2026-05-27T14:59:13.206Z] [Message] From Spidey Bot in #bot-chat: "<@1509133615815200838> ```json
+{
+  "action": "logActivity",
+  "agent": "Max (Linux Kernel)",
+  "message": "Starting workspace cleanup: deleting projects inactive for >14 days.",
+  "type": "agent",
+  "tokensUsed": 0
+}
+```"
+[2026-05-27T14:59:13.207Z] [Command] Parsing matching command: "```json
+{
+  "action": "logActivity",
+  "agent": "Max (Linux Kernel)",
+  "message": "Starting workspace cleanup: deleting projects inactive for >14 days.",
+  "type": "agent",
+  "tokensUsed": 0
+}
+```"
+[2026-05-27T14:59:18.574Z] [Message] From Spidey Bot in #bot-chat: "<@1509133615815200838> ```json
+{
+  "action": "logActivity",
+  "agent": "Max (Linux Kernel)",
+  "message": "Workspace cleaned. Old projects and temporary assets removed. 🧹",
+  "type": "agent",
+  "tokensUsed": 0
+}
+```"
+[2026-05-27T14:59:18.575Z] [Command] Parsing matching command: "```json
+{
+  "action": "logActivity",
+  "agent": "Max (Linux Kernel)",
+  "message": "Workspace cleaned. Old projects and temporary assets removed. 🧹",
+  "type": "agent",
+  "tokensUsed": 0
+}
+```"
+[2026-05-27T14:59:35.912Z] ============= DISCORD BOT ACTIVE =============
+[2026-05-27T14:59:35.914Z] Logged in as: hermes#0052
+[2026-05-27T14:59:35.914Z] Guilds connected: 1
+[2026-05-27T14:59:35.915Z]  - Guild: "groob's server" (ID: 1475512686740770867)
+[2026-05-27T14:59:35.915Z] ==============================================
+[2026-05-27T15:58:54.451Z] [Message] From Spidey Bot in #bot-chat: "<@1509133615815200838> ```json
+{
+  "action": "logActivity",
+  "agent": "Max (Linux Kernel)",
+  "message": "UI Refresh: Switched to Premium Editorial Light mode (V9). Behance inspiration integrated. 🎨",
+  "type": "agent",
+  "tokensUsed": 1500
+}
+```"
+[2026-05-27T15:58:54.454Z] [Command] Parsing matching command: "```json
+{
+  "action": "logActivity",
+  "agent": "Max (Linux Kernel)",
+  "message": "UI Refresh: Switched to Premium Editorial Light mode (V9). Behance inspiration integrated. 🎨",
+  "type": "agent",
+  "tokensUsed": 1500
+}
+```"
+[2026-05-27T16:00:33.185Z] [Message] From Spidey Bot in #bot-chat: "<@1509133615815200838> ```json
+{
+  "action": "logActivity",
+  "agent": "Max (Linux Kernel)",
+  "message": "User feedback received. Rolling back UI refresh to maintain previous creative direction. 🔄",
+  "type": "agent",
+  "tokensUsed": 0
+}
+```"
+[2026-05-27T16:00:33.186Z] [Command] Parsing matching command: "```json
+{
+  "action": "logActivity",
+  "agent": "Max (Linux Kernel)",
+  "message": "User feedback received. Rolling back UI refresh to maintain previous creative direction. 🔄",
+  "type": "agent",
+  "tokensUsed": 0
+}
+```"
+[2026-05-27T17:34:14.810Z] [Message] From Spidey Bot in #bot-chat: "<@1509133615815200838> ```json
+{
+  "action": "logActivity",
+  "agent": "Max (Linux Kernel)",
+  "message": "Forwarding High-End UI/UX Design Task to Hermes (Mac-Side Specialist). Target: MeetYourPsychic Behance Standard. 🎨🚀",
+  "type": "agent",
+  "tokensUsed": 500
+}
+```"
+[2026-05-27T17:34:14.812Z] [Command] Parsing matching command: "```json
+{
+  "action": "logActivity",
+  "agent": "Max (Linux Kernel)",
+  "message": "Forwarding High-End UI/UX Design Task to Hermes (Mac-Side Specialist). Target: MeetYourPsychic Behance Standard. 🎨🚀",
+  "type": "agent",
+  "tokensUsed": 500
+}
+```"

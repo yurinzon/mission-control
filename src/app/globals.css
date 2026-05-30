@@ -24,3 +24,51 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Kassi Tarot Custom Keyframes & Utility Styles */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(15px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes shuffling-slide-0 {
+  0% { transform: rotate(-5deg) translateX(0) scale(1); }
+  100% { transform: rotate(-10deg) translateX(-45px) scale(0.95); }
+}
+@keyframes shuffling-slide-1 {
+  0% { transform: rotate(-2deg) translateX(0) scale(1); }
+  100% { transform: rotate(5deg) translateX(55px) scale(1.02); }
+}
+@keyframes shuffling-slide-2 {
+  0% { transform: rotate(1deg) translateX(0) scale(1); }
+  100% { transform: rotate(-8deg) translateX(-30px) scale(0.97); }
+}
+@keyframes shuffling-slide-3 {
+  0% { transform: rotate(4deg) translateX(0) scale(1); }
+  100% { transform: rotate(8deg) translateX(45px) scale(1.04); }
+}
+@keyframes shuffling-slide-4 {
+  0% { transform: rotate(-3deg) translateX(0) scale(1); }
+  100% { transform: rotate(-2deg) translateX(20px) scale(1.01); }
+}
+
+.double-bezel {
+  box-shadow: 
+    0 0 0 1px rgba(212, 175, 55, 0.15),
+    0 20px 50px rgba(0, 0, 0, 0.7),
+    inset 0 1px 1px rgba(255, 255, 255, 0.05);
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+  width: 4px;
+}
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 4px;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
